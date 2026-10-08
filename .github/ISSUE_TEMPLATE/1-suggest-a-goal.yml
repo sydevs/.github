@@ -1,0 +1,45 @@
+name: Suggest a goal
+description: Something you would like Sahaj Atlas, We Meditate or our other tools to make possible.
+type: Roadmap
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a goal. Write it in your own words — no technical detail needed.
+        A maintainer reads every suggestion. Once one accepts it, our assistant may ask you a few
+        questions here, each with options to choose from.
+  - type: dropdown
+    id: product
+    attributes:
+      label: Which product?
+      options:
+        - Sahaj Atlas (the map of meditation classes)
+        - We Meditate (wemeditate.com)
+        - The content system behind them
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: The goal
+      description: Who would benefit, and what would change for them?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters
+      description: What is hard, missing or frustrating today?
+    validations:
+      required: true
+  - type: textarea
+    id: success
+    attributes:
+      label: What success looks like
+      description: How would you know it worked? A short list is fine.
+  - type: textarea
+    id: not-included
+    attributes:
+      label: Not included (optional)
+      description: Anything this should deliberately leave out.

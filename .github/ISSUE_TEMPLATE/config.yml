@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: See the roadmap
+    url: https://github.com/orgs/sydevs/projects/2
+    about: What we are working on, and what is planned next.
